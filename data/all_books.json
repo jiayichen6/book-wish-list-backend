@@ -7,7 +7,7 @@
       "work_count": 17935,
       "works": [
         {
-          "key": "/works/OL21177W",
+          "key": "OL21177W",
           "title": "Wuthering Heights",
           "edition_count": 2850,
           "cover_id": 12818862,
@@ -237,7 +237,7 @@
           }
         },
         {
-          "key": "/works/OL468431W",
+          "key": "OL468431W",
           "title": "The Great Gatsby",
           "edition_count": 1174,
           "cover_id": 10590366,
@@ -449,7 +449,7 @@
           }
         },
         {
-          "key": "/works/OL98501W",
+          "key": "OL98501W",
           "title": "Ethan Frome",
           "edition_count": 1000,
           "cover_id": 8303480,
@@ -598,7 +598,7 @@
           }
         },
         {
-          "key": "/works/OL362427W",
+          "key": "OL362427W",
           "title": "Romeo and Juliet",
           "edition_count": 973,
           "cover_id": 8257991,
@@ -827,7 +827,7 @@
           }
         },
         {
-          "key": "/works/OL267096W",
+          "key": "OL267096W",
           "title": "Anna Karenina",
           "edition_count": 899,
           "cover_id": 2560652,
@@ -1003,7 +1003,7 @@
           }
         },
         {
-          "key": "/works/OL51831W",
+          "key": "OL51831W",
           "title": "πολιτεία",
           "edition_count": 792,
           "cover_id": 14418448,
@@ -1198,7 +1198,7 @@
           }
         },
         {
-          "key": "/works/OL36287W",
+          "key": "OL36287W",
           "title": "Le Comte de Monte Cristo",
           "edition_count": 732,
           "cover_id": 14566393,
@@ -1351,7 +1351,7 @@
           }
         },
         {
-          "key": "/works/OL362706W",
+          "key": "OL362706W",
           "title": "Sonnets",
           "edition_count": 579,
           "cover_id": 8222090,
@@ -1548,7 +1548,7 @@
           }
         },
         {
-          "key": "/works/OL362698W",
+          "key": "OL362698W",
           "title": "As You Like It",
           "edition_count": 465,
           "cover_id": 7338874,
@@ -1686,7 +1686,7 @@
           "has_fulltext": true
         },
         {
-          "key": "/works/OL27776452W",
+          "key": "OL27776452W",
           "title": "The Importance of Being Earnest",
           "edition_count": 445,
           "cover_id": 1260453,
@@ -1796,7 +1796,7 @@
           }
         },
         {
-          "key": "/works/OL77788W",
+          "key": "OL77788W",
           "title": "Chronicles of Avonlea",
           "edition_count": 381,
           "cover_id": 14635990,
@@ -1866,7 +1866,7 @@
           }
         },
         {
-          "key": "/works/OL239940W",
+          "key": "OL239940W",
           "title": "कामसूत्र",
           "edition_count": 381,
           "cover_id": 8003766,
@@ -2005,7 +2005,7 @@
           }
         },
         {
-          "key": "/works/OL10263W",
+          "key": "OL10263W",
           "title": "Le petit prince",
           "edition_count": 371,
           "cover_id": 10708272,
@@ -2171,7 +2171,7 @@
           }
         },
         {
-          "key": "/works/OL51815W",
+          "key": "OL51815W",
           "title": "Συμπόσιον",
           "edition_count": 350,
           "cover_id": 14398918,
@@ -2319,7 +2319,7 @@
           }
         },
         {
-          "key": "/works/OL551668W",
+          "key": "OL551668W",
           "title": "Cyrano de Bergerac",
           "edition_count": 308,
           "cover_id": 8236320,
@@ -2462,7 +2462,7 @@
           }
         },
         {
-          "key": "/works/OL30020W",
+          "key": "OL30020W",
           "title": "Rose in Bloom",
           "edition_count": 257,
           "cover_id": 7242794,
@@ -2563,7 +2563,7 @@
           }
         },
         {
-          "key": "/works/OL93228W",
+          "key": "OL93228W",
           "title": "Vita nuova",
           "edition_count": 231,
           "cover_id": 8236950,
@@ -2680,7 +2680,7 @@
           }
         },
         {
-          "key": "/works/OL51785W",
+          "key": "OL51785W",
           "title": "Γοργίας",
           "edition_count": 224,
           "cover_id": 14372952,
@@ -2811,7 +2811,7 @@
           }
         },
         {
-          "key": "/works/OL259028W",
+          "key": "OL259028W",
           "title": "Works [37 plays, 6 poems, sonnets]",
           "edition_count": 213,
           "cover_id": 8779054,
@@ -2998,7 +2998,7 @@
           }
         },
         {
-          "key": "/works/OL55403W",
+          "key": "OL55403W",
           "title": "Чайка",
           "edition_count": 208,
           "cover_id": 2050811,
@@ -3085,7 +3085,7 @@
           }
         },
         {
-          "key": "/works/OL36633W",
+          "key": "OL36633W",
           "title": "Rebecca",
           "edition_count": 183,
           "cover_id": 8238729,
@@ -3171,7 +3171,7 @@
           }
         },
         {
-          "key": "/works/OL88813W",
+          "key": "OL88813W",
           "title": "A Room with a View",
           "edition_count": 180,
           "cover_id": 1748132,
@@ -3282,7 +3282,7 @@
           }
         },
         {
-          "key": "/works/OL258301W",
+          "key": "OL258301W",
           "title": "Доктор Живаго",
           "edition_count": 176,
           "cover_id": 1045432,
@@ -3426,7 +3426,7 @@
           }
         },
         {
-          "key": "/works/OL63915W",
+          "key": "OL63915W",
           "title": "Bracebridge Hall",
           "edition_count": 166,
           "cover_id": 8247735,
@@ -3526,7 +3526,7 @@
           }
         },
         {
-          "key": "/works/OL51940W",
+          "key": "OL51940W",
           "title": "Μένων",
           "edition_count": 150,
           "cover_id": 14400095,
@@ -3591,7 +3591,7 @@
           "has_fulltext": true
         },
         {
-          "key": "/works/OL51816W",
+          "key": "OL51816W",
           "title": "Φαῖδρος",
           "edition_count": 138,
           "cover_id": 14398919,
@@ -3672,7 +3672,7 @@
           }
         },
         {
-          "key": "/works/OL627084W",
+          "key": "OL627084W",
           "title": "Lolita",
           "edition_count": 134,
           "cover_id": 12984540,
@@ -3814,7 +3814,7 @@
           }
         },
         {
-          "key": "/works/OL58402W",
+          "key": "OL58402W",
           "title": "Guess How Much I Love You",
           "edition_count": 129,
           "cover_id": 13282906,
@@ -3967,7 +3967,7 @@
           }
         },
         {
-          "key": "/works/OL106837W",
+          "key": "OL106837W",
           "title": "Mémoires d'Hadrien",
           "edition_count": 129,
           "cover_id": 1003164,
@@ -4051,7 +4051,7 @@
           }
         },
         {
-          "key": "/works/OL5720023W",
+          "key": "OL5720023W",
           "title": "Twilight",
           "edition_count": 118,
           "cover_id": 12641977,
@@ -4230,7 +4230,7 @@
           }
         },
         {
-          "key": "/works/OL905626W",
+          "key": "OL905626W",
           "title": "الروض العاطر في نزهة الخاطر",
           "edition_count": 116,
           "cover_id": 13006575,
@@ -4327,7 +4327,7 @@
           }
         },
         {
-          "key": "/works/OL1905255W",
+          "key": "OL1905255W",
           "title": "La casa de los espíritus",
           "edition_count": 109,
           "cover_id": 3205226,
@@ -4438,7 +4438,7 @@
           }
         },
         {
-          "key": "/works/OL10834W",
+          "key": "OL10834W",
           "title": "Perfume",
           "edition_count": 104,
           "cover_id": 10910286,
@@ -4527,7 +4527,7 @@
           }
         },
         {
-          "key": "/works/OL41495W",
+          "key": "OL41495W",
           "title": "A Wrinkle in Time",
           "edition_count": 104,
           "cover_id": 8709146,
@@ -4650,7 +4650,7 @@
           }
         },
         {
-          "key": "/works/OL1184991W",
+          "key": "OL1184991W",
           "title": "The Art of Loving",
           "edition_count": 101,
           "cover_id": 4741809,
@@ -4734,7 +4734,7 @@
           }
         },
         {
-          "key": "/works/OL97725W",
+          "key": "OL97725W",
           "title": "Ars Amatoria",
           "edition_count": 98,
           "cover_id": 12733518,
@@ -4833,7 +4833,7 @@
           }
         },
         {
-          "key": "/works/OL2100998W",
+          "key": "OL2100998W",
           "title": "Vies des dames galantes",
           "edition_count": 96,
           "cover_id": 5750631,
@@ -4898,7 +4898,7 @@
           }
         },
         {
-          "key": "/works/OL811123W",
+          "key": "OL811123W",
           "title": "Stepping heavenward",
           "edition_count": 92,
           "cover_id": 832900,
@@ -4966,7 +4966,7 @@
           }
         },
         {
-          "key": "/works/OL23166W",
+          "key": "OL23166W",
           "title": "East of Eden",
           "edition_count": 90,
           "cover_id": 11386937,
@@ -5113,7 +5113,7 @@
           }
         },
         {
-          "key": "/works/OL5720027W",
+          "key": "OL5720027W",
           "title": "New Moon",
           "edition_count": 88,
           "cover_id": 12643406,
@@ -5269,7 +5269,7 @@
           }
         },
         {
-          "key": "/works/OL16027499W",
+          "key": "OL16027499W",
           "title": "Briefe an einen jungen Dichter",
           "edition_count": 85,
           "cover_id": 6874224,
@@ -5347,7 +5347,7 @@
           }
         },
         {
-          "key": "/works/OL953162W",
+          "key": "OL953162W",
           "title": "Como agua para chocolate",
           "edition_count": 82,
           "cover_id": 8372632,
@@ -5483,7 +5483,7 @@
           }
         },
         {
-          "key": "/works/OL8972751W",
+          "key": "OL8972751W",
           "title": "Nesnesitelná lehkost bytí",
           "edition_count": 81,
           "cover_id": 967823,
@@ -5592,7 +5592,7 @@
           }
         },
         {
-          "key": "/works/OL16444438W",
+          "key": "OL16444438W",
           "title": "The Fault in Our Stars",
           "edition_count": 76,
           "cover_id": 7418786,
@@ -5721,7 +5721,7 @@
           }
         },
         {
-          "key": "/works/OL97772W",
+          "key": "OL97772W",
           "title": "Amores",
           "edition_count": 73,
           "cover_id": 8783173,
@@ -5824,7 +5824,7 @@
           }
         },
         {
-          "key": "/works/OL15822096W",
+          "key": "OL15822096W",
           "title": "Psychopathia sexualis",
           "edition_count": 71,
           "cover_id": 5694463,
@@ -5924,7 +5924,7 @@
           }
         },
         {
-          "key": "/works/OL1140014W",
+          "key": "OL1140014W",
           "title": "Introduction à la vie dévote",
           "edition_count": 67,
           "cover_id": 8942064,
@@ -6006,7 +6006,7 @@
           }
         },
         {
-          "key": "/works/OL733306W",
+          "key": "OL733306W",
           "title": "De l'amour",
           "edition_count": 66,
           "cover_id": 967517,
@@ -6078,7 +6078,7 @@
           }
         },
         {
-          "key": "/works/OL25423W",
+          "key": "OL25423W",
           "title": "The Little Tin Soldier",
           "edition_count": 63,
           "cover_id": 1997722,
@@ -6174,7 +6174,7 @@
           }
         },
         {
-          "key": "/works/OL10342794W",
+          "key": "OL10342794W",
           "title": "Bodas de sangre",
           "edition_count": 61,
           "cover_id": 5268273,
@@ -6247,252 +6247,252 @@
     },
     "booksDescData": [
       {
-        "key": "/works/OL21177W",
+        "key": "OL21177W",
         "book": "Wuthering Heights",
         "description": "Wuthering Heights is the only novel by the English author Emily Brontë, initially published in 1847 under her pen name \"Ellis Bell\". It concerns two families of the landed gentry living on the West Yorkshire moors, the Earnshaws and the Lintons, and their turbulent relationships with the Earnshaws' foster son, Heathcliff. The novel, influenced by Romanticism and Gothic fiction, is considered a classic of English literature."
       },
       {
-        "key": "/works/OL468431W",
+        "key": "OL468431W",
         "book": "The Great Gatsby",
         "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan."
       },
       {
-        "key": "/works/OL98501W",
+        "key": "OL98501W",
         "book": "Ethan Frome",
         "description": "Ethan Frome is a 1911 novella by American author Edith Wharton. It details the story of a man who falls in love with his wife's cousin and the tragedies that result from the ensuing love triangle. The novel has been adapted into a film of the same name."
       },
       {
-        "key": "/works/OL362427W",
+        "key": "OL362427W",
         "book": "Romeo and Juliet",
         "description": "The Tragedy of Romeo and Juliet, often shortened to Romeo and Juliet, is a tragedy written by William Shakespeare about the romance between two young Italians from feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed. Today, the title characters are regarded as archetypal young lovers."
       },
       {
-        "key": "/works/OL267096W",
+        "key": "OL267096W",
         "book": "Anna Karenina",
         "description": "Anna Karenina is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Tolstoy called it his first true novel. It was initially released in serial installments from 1875 to 1877, all but the last part appearing in the periodical The Russian Messenger. By the time he was finishing up the last installments, Tolstoy was in an anguished state of mind and, having come to hate it but finished it unwillingly."
       },
       {
-        "key": "/works/OL51831W",
+        "key": "OL51831W",
         "book": "πολιτεία",
         "description": "\nPoliteia is an ancient Greek word used in Greek political thought, especially that of Plato and Aristotle. Derived from the word polis (\"city-state\"), it has a range of meanings from \"the rights of citizens\" to a \"form of government\" to \"commonwealth.\""
       },
       {
-        "key": "/works/OL36287W",
+        "key": "OL36287W",
         "book": "Le Comte de Monte Cristo",
         "description": "The Count of Monte Cristo is an adventure novel by the French writer Alexandre Dumas. It was serialised from 1844 to 1846, then published in book form in 1846. It is one of his most popular works, along with The Three Musketeers (1844) and Man in the Iron Mask (1850). Like many of his novels, it was expanded from plot outlines suggested by his collaborating ghostwriter, Auguste Maquet. It is regarded as a classic of both French and world literature."
       },
       {
-        "key": "/works/OL362706W",
+        "key": "OL362706W",
         "book": "Sonnets",
         "description": "A sonnet is a fixed poetic form with a structure traditionally consisting of fourteen lines adhering to a set rhyming scheme. The term derives from the Italian word sonetto. Originating in 13th-century Sicily, the sonnet was in time taken up in many European-language areas, mainly to express romantic love at first, although eventually any subject was considered acceptable. Many formal variations were also introduced, including abandonment of the quatorzain limit – and even of rhyme altogether in modern times."
       },
       {
-        "key": "/works/OL362698W",
+        "key": "OL362698W",
         "book": "As You Like It",
         "description": "As You Like It is a pastoral comedy by William Shakespeare believed to have been written in 1599 and first published in the First Folio in 1623. The play's first performance is uncertain, though a performance at Wilton House in 1603 has been suggested as a possibility."
       },
       {
-        "key": "/works/OL27776452W",
+        "key": "OL27776452W",
         "book": "The Importance of Being Earnest",
         "description": "The Importance of Being Earnest, a Trivial Comedy for Serious People is a play by Oscar Wilde, the last of his four drawing-room plays, following Lady Windermere's Fan (1892), A Woman of No Importance (1893) and An Ideal Husband (1895). First performed on 14 February 1895 at the St James's Theatre in London, it is a farcical comedy depicting the tangled affairs of two young men about town who lead double lives to evade unwanted social obligations, both assuming the name Ernest while wooing the two young women of their affections."
       },
       {
-        "key": "/works/OL77788W",
+        "key": "OL77788W",
         "book": "Chronicles of Avonlea",
         "description": "Chronicles of Avonlea is a collection of short stories by Canadian author L. M. Montgomery, related to the Anne of Green Gables series. It features an abundance of stories relating to the fictional Canadian village of Avonlea, and was first published in 1912. Sometimes marketed as a book in the Anne Shirley series, Anne plays only a minor role in the book: out of the 12 stories in the collection, she stars in only one, and has a small supporting role in another. She is otherwise only briefly mentioned in passing in five other stories: \"Each in His Own Tongue\", \"Little Joscelyn\", \"The Winning of Lucinda\", \"Quarantine at Alexander Abraham's\" and \"The End of a Quarrel\"."
       },
       {
-        "key": "/works/OL239940W",
+        "key": "OL239940W",
         "book": "कामसूत्र",
         "description": "No description found."
       },
       {
-        "key": "/works/OL10263W",
+        "key": "OL10263W",
         "book": "Le petit prince",
         "description": "The Little Prince is a novella written and illustrated by French writer and aviator Antoine de Saint-Exupéry. It was first published in English and French in the United States by Reynal & Hitchcock in April 1943 and was published posthumously in France following liberation; Saint-Exupéry's works had been banned by the Vichy Regime. The story follows a young prince who visits various planets, including Earth, and addresses themes of loneliness, friendship, love, and loss. Despite its style as a children's book, The Little Prince makes observations about life, adults, and human nature."
       },
       {
-        "key": "/works/OL51815W",
+        "key": "OL51815W",
         "book": "Συμπόσιον",
         "description": "No description found."
       },
       {
-        "key": "/works/OL551668W",
+        "key": "OL551668W",
         "book": "Cyrano de Bergerac",
         "description": "Savinien de Cyrano de Bergerac was a French novelist, playwright, epistolarian, and duelist."
       },
       {
-        "key": "/works/OL30020W",
+        "key": "OL30020W",
         "book": "Rose in Bloom",
         "description": "Rose in Bloom is a novel by Louisa May Alcott published in 1876 and is a sequel to Eight Cousins. It depicts the story of a nineteenth-century girl, Rose Campbell, finding her way in society, seeking a profession in philanthropy, and finding a marriage partner. Considered enjoyable by some readers and dull by others, the novel received generally positive reviews. Its themes include philanthropy, independence in women, the impact of society, and class differences."
       },
       {
-        "key": "/works/OL93228W",
+        "key": "OL93228W",
         "book": "Vita nuova",
         "description": "La Vita Nuova or Vita Nova is a text by Dante Alighieri published in 1294. It is an expression of the medieval genre of courtly love in a prosimetrum style, a combination of both prose and verse."
       },
       {
-        "key": "/works/OL51785W",
+        "key": "OL51785W",
         "book": "Γοργίας",
         "description": "Gorgias was an ancient Greek sophist, pre-Socratic philosopher, and rhetorician who was a native of Leontinoi in Sicily. Several doxographers report that he was a pupil of Empedocles, although he would only have been a few years younger. W. K. C. Guthrie writes that \"Like other Sophists, he was an itinerant that practiced in various cities and giving public exhibitions of his skill at the great pan-Hellenic centers of Olympia and Delphi, and charged fees for his instruction and performances. A special feature of his displays was to ask miscellaneous questions from the audience and give impromptu replies.\" He has been called \"Gorgias the Nihilist\", although the degree to which this epithet adequately describes his philosophy is controversial."
       },
       {
-        "key": "/works/OL259028W",
+        "key": "OL259028W",
         "book": "Works [37 plays, 6 poems, sonnets]",
         "description": "No description found."
       },
       {
-        "key": "/works/OL55403W",
+        "key": "OL55403W",
         "book": "Чайка",
         "description": "Chaika or Chayka, the word for gull in several Slavic languages, may refer to:"
       },
       {
-        "key": "/works/OL36633W",
+        "key": "OL36633W",
         "book": "Rebecca",
         "description": "Rebecca appears in the Hebrew Bible as the wife of Isaac and the mother of Jacob and Esau. According to biblical tradition, Rebecca's father was Bethuel the Aramean from Paddan Aram, also called Aram-Naharaim. Rebecca's brother was Laban the Aramean, and she was the granddaughter of Milcah and Nahor, the brother of Abraham. Rebecca and Isaac were one of the four couples that some believe are buried in the Cave of the Patriarchs, the other three being Adam and Eve, Abraham and Sarah, and Jacob and Leah. Most scholars have considered Rebecca's historicity uncertain."
       },
       {
-        "key": "/works/OL88813W",
+        "key": "OL88813W",
         "book": "A Room with a View",
         "description": "A Room with a View is a 1908 novel by English writer E. M. Forster, about a young woman in the restrained culture of Edwardian-era England. Set in Italy and England, the story is both a romance and a humorous critique of English society at the beginning of the 20th century. Merchant Ivory produced an award-winning film adaptation in 1985."
       },
       {
-        "key": "/works/OL258301W",
+        "key": "OL258301W",
         "book": "Доктор Живаго",
         "description": "\nDoctor Zhivago is the title of a novel by Boris Pasternak and its various adaptations."
       },
       {
-        "key": "/works/OL63915W",
+        "key": "OL63915W",
         "book": "Bracebridge Hall",
         "description": "Bracebridge Hall, or The Humorists, A Medley was written by Washington Irving in 1821, while he lived in England, and published in 1822. This episodic novel was originally published under his pseudonym Geoffrey Crayon."
       },
       {
-        "key": "/works/OL51940W",
+        "key": "OL51940W",
         "book": "Μένων",
         "description": "No description found."
       },
       {
-        "key": "/works/OL51816W",
+        "key": "OL51816W",
         "book": "Φαῖδρος",
         "description": "No description found."
       },
       {
-        "key": "/works/OL627084W",
+        "key": "OL627084W",
         "book": "Lolita",
         "description": "Lolita is a 1955 novel written by Russian-American novelist Vladimir Nabokov. The protagonist and narrator is a French literature professor who moves to New England and writes under the pseudonym Humbert Humbert. He details his obsession and victimization of a 12-year-old girl, Dolores Haze, whom he describes as a \"nymphet\". Humbert kidnaps and sexually abuses Dolores after becoming her stepfather. Privately, he calls her \"Lolita\", the Spanish diminutive for Dolores. The novel was written in English, but fear of censorship in the U.S. and Britain led to it being first published in Paris, France, in 1955 by Olympia Press."
       },
       {
-        "key": "/works/OL58402W",
+        "key": "OL58402W",
         "book": "Guess How Much I Love You",
         "description": "Guess How Much I Love You is a British children's book written by Sam McBratney and illustrated by Anita Jeram, published in 1994, in the United Kingdom by Walker Books and in 1995, in the United States by its subsidiary Candlewick Press. The book was a 1996 ALA Notable Children's Book. According to its publishers, in addition to the ALA award and numerous other awards, it has sold more than 43 million copies worldwide and been published in 57 languages."
       },
       {
-        "key": "/works/OL106837W",
+        "key": "OL106837W",
         "book": "Mémoires d'Hadrien",
         "description": "Memoirs of Hadrian is a French-language novel by the Belgian-born French writer Marguerite Yourcenar about the life and death of the Roman Emperor Hadrian. First published in France in 1951, the book was a critical and commercial success. It was translated into English by Grace Frick and published as Hadrian's Memoirs in 1954 by Farrar, Straus and Young and the following year in the UK as Memoirs of Hadrian. American editions of this translation are now published under the latter title."
       },
       {
-        "key": "/works/OL5720023W",
+        "key": "OL5720023W",
         "book": "Twilight",
         "description": "Twilight is daylight illumination produced by diffuse sky radiation when the Sun is below the horizon as sunlight from the upper atmosphere is scattered in a way that illuminates both the Earth's lower atmosphere and also the Earth's surface. Twilight also may be any period when this illumination occurs, including dawn and dusk."
       },
       {
-        "key": "/works/OL905626W",
+        "key": "OL905626W",
         "book": "الروض العاطر في نزهة الخاطر",
         "description": "No description found."
       },
       {
-        "key": "/works/OL1905255W",
+        "key": "OL1905255W",
         "book": "La casa de los espíritus",
         "description": "The House of the Spirits is the debut novel of Isabel Allende. The novel was rejected by several Spanish-language publishers before being published in Barcelona in 1982. It became an instant best-seller, was critically acclaimed, and catapulted Allende to literary stardom. The novel was named Best Novel of the Year in Chile in 1982, and Allende received the country's Panorama Literario award. The House of the Spirits has been translated into over 20 languages."
       },
       {
-        "key": "/works/OL10834W",
+        "key": "OL10834W",
         "book": "Perfume",
         "description": "Perfume is a mixture of fragrant essential oils or aroma compounds (fragrances), fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent. Perfumes can be defined as substances that emit and diffuse a pleasant and fragrant odor. They consist of artificial mixtures of aromatic chemicals and essential oils. The 1939 Nobel Laureate for Chemistry, Leopold Ružička stated in 1945 that \"right from the earliest days of scientific chemistry up to the present time, perfumes have substantially contributed to the development of organic chemistry as regards methods, systematic classification, and theory.\""
       },
       {
-        "key": "/works/OL41495W",
+        "key": "OL41495W",
         "book": "A Wrinkle in Time",
         "description": "A Wrinkle in Time is a young adult science fantasy novel written by American author Madeleine L'Engle. First published in 1962, the book won the Newbery Medal, the Sequoyah Book Award and the Lewis Carroll Shelf Award, and was runner-up for the Hans Christian Andersen Award. The main characters – Meg Murry, Charles Wallace Murry, and Calvin O'Keefe – embark on a journey through space and time, from galaxy to galaxy, as they endeavor to rescue the Murrys' father and fight The Black Thing that has intruded into several worlds."
       },
       {
-        "key": "/works/OL1184991W",
+        "key": "OL1184991W",
         "book": "The Art of Loving",
         "description": "The Art of Loving is a 1956 book by psychoanalyst and social philosopher Erich Fromm. It was originally published as part of the World Perspectives series edited by Ruth Nanda Anshen. In this work, Fromm develops his perspective on human nature from his earlier works, Escape from Freedom and Man for Himself – principles which he revisits in many of his other major works. He criticizes the popular conception of love and asserts that \"love is the only provision for a sane and satisfying human existence\"."
       },
       {
-        "key": "/works/OL97725W",
+        "key": "OL97725W",
         "book": "Ars Amatoria",
         "description": "The Ars amatoria is an instructional elegy series in three books by the ancient Roman poet Ovid. It was written in 2 AD."
       },
       {
-        "key": "/works/OL2100998W",
+        "key": "OL2100998W",
         "book": "Vies des dames galantes",
         "description": "No description found."
       },
       {
-        "key": "/works/OL811123W",
+        "key": "OL811123W",
         "book": "Stepping heavenward",
         "description": "No description found."
       },
       {
-        "key": "/works/OL23166W",
+        "key": "OL23166W",
         "book": "East of Eden",
         "description": "East of Eden may refer to:The biblical location of the Land of Nod, where Cain was exiled\nDuidain, a wilderness mentioned in the Book of Enoch\nA biblical reference to Adam and Eve's exile from the Garden of Eden"
       },
       {
-        "key": "/works/OL5720027W",
+        "key": "OL5720027W",
         "book": "New Moon",
         "description": "In astronomy, the new moon is the first lunar phase, when the Moon and Sun have the same ecliptic longitude. At this phase, the lunar disk is not visible to the naked eye, except when it is silhouetted against the Sun during a solar eclipse."
       },
       {
-        "key": "/works/OL16027499W",
+        "key": "OL16027499W",
         "book": "Briefe an einen jungen Dichter",
         "description": "No description found."
       },
       {
-        "key": "/works/OL953162W",
+        "key": "OL953162W",
         "book": "Como agua para chocolate",
         "description": "Like Water for Chocolate may refer to:Like Water for Chocolate (novel), by Laura Esquivel\nLike Water for Chocolate (film), a 1992 film based on the novel\nLike Water for Chocolate (ballet), a three-act ballet by Christopher Wheeldon based on the novel\nLike Water for Chocolate (album), by Common"
       },
       {
-        "key": "/works/OL8972751W",
+        "key": "OL8972751W",
         "book": "Nesnesitelná lehkost bytí",
         "description": "The Unbearable Lightness of Being is a 1984 novel by Milan Kundera about two women, two men, a dog, and their lives in the 1968 Prague Spring period of Czechoslovak history. Although written in 1982, the novel was not published until two years later, in a French translation. The same year, it was translated to English from Czech by Michael Henry Heim and excerpts of it were published in The New Yorker. The original Czech text was published the following year."
       },
       {
-        "key": "/works/OL16444438W",
+        "key": "OL16444438W",
         "book": "The Fault in Our Stars",
         "description": "The Fault in Our Stars is a novel by John Green. It is his fourth solo novel, and sixth novel overall. It was published on January 10, 2012. The title is inspired by Act 1, Scene 2 of Shakespeare's play Julius Caesar, in which the nobleman Cassius says to Brutus: \"Men at some time were masters of their fates, / The fault, dear Brutus, is not in our stars, / But in ourselves, that we are underlings.\" Author John Green was inspired to write the book after working as a student chaplain in a children's hospital, and it is dedicated to his friend Esther Earl, who died of thyroid cancer in 2010, age 16. The story is narrated by Hazel Grace Lancaster, a 16-year-old girl with thyroid cancer that has affected her lungs. Hazel is forced by her parents to attend a support group where she subsequently meets and falls in love with 17-year-old Augustus Waters, an ex-basketball player, amputee, and survivor of osteosarcoma."
       },
       {
-        "key": "/works/OL97772W",
+        "key": "OL97772W",
         "book": "Amores",
         "description": "Amores may refer to:Amores (Ovid), the first book by the poet Ovid, published in 5 volumes in 16 BCE\nAmores (Lucian), a play by Lucian; also known as Erotes\nErotes (mythology), known as Amores by the Romans\nAmores, a book of poetry by D. H. Lawrence\nAmores, a piece for percussion group and prepared piano composed by John Cage\nAmores, a BRT station in Mexico City\n\n"
       },
       {
-        "key": "/works/OL15822096W",
+        "key": "OL15822096W",
         "book": "Psychopathia sexualis",
         "description": "Psychopathia Sexualis: eine klinisch-forensische Studie is an 1886 book by Richard Freiherr von Krafft-Ebing and one of the first texts about sexual pathology. The book details a wide range of paraphilias and focuses on male homosexuality/bisexuality. The book coined the terms \"sadism and masochism\" as well as borrowing the term \"bisexual\" from botanical nomenclature."
       },
       {
-        "key": "/works/OL1140014W",
+        "key": "OL1140014W",
         "book": "Introduction à la vie dévote",
         "description": "No description found."
       },
       {
-        "key": "/works/OL733306W",
+        "key": "OL733306W",
         "book": "De l'amour",
         "description": "All About Loving is a 1964 French comedy film directed by Jean Aurel and starring Anna Karina."
       },
       {
-        "key": "/works/OL25423W",
+        "key": "OL25423W",
         "book": "The Little Tin Soldier",
         "description": "No description found."
       },
       {
-        "key": "/works/OL10342794W",
+        "key": "OL10342794W",
         "book": "Bodas de sangre",
         "description": "Blood Wedding is a tragedy by Spanish dramatist Federico García Lorca. It was written in 1932 and first performed at Teatro Beatriz in Madrid in March 1933, then later that year in Buenos Aires, Argentina."
       }

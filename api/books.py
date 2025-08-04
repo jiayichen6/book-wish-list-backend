@@ -15,7 +15,7 @@ def get_all_books():
         return jsonify({"error": "讀取書本資料失敗"}), 404
 
 
-@books_bp.route("/user_books/<list_name>", methods=["GET"])
+@books_bp.route("my/<list_name>", methods=["GET"])
 @token_require
 def get_user_book_keys(account, list_name):
     try:
@@ -29,7 +29,7 @@ def get_user_book_keys(account, list_name):
         return jsonify({"error": "讀取使用者書單失敗"}), 404
 
 
-@books_bp.route("/user_books/<list_name>/<string:book_id>", methods=["POST"])
+@books_bp.route("/my/<list_name>/<string:book_id>", methods=["POST"])
 @token_require
 def add_book(account, list_name, book_id):
 
@@ -65,7 +65,7 @@ def add_book(account, list_name, book_id):
         return jsonify({"error": "新增書本失敗"}), 400
 
 
-@books_bp.route("/user_books/<list_name>/<string:book_id>", methods=["DELETE"])
+@books_bp.route("/my/<list_name>/<string:book_id>", methods=["DELETE"])
 @token_require
 def delete_book(account, list_name, book_id):
     try:
