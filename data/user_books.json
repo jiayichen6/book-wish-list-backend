@@ -1,0 +1,7 @@
+{
+  "1234@example.com": {
+    "toReadBooks": ["/works/OL10342794W", "/works/OL97772W"],
+    "finishedBooks": ["/works/OL88813W", "/works/OL41495W"],
+    "favoriteBooks": ["/works/OL41495W"]
+  }
+}
