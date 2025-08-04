@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-base_dir = Path(__file__).resolve().parent.parent
+base_dir = Path(__file__).resolve().parent.parent.parent
 # 回到根目錄
 
 users_path = base_dir / "data" / "users.json"
