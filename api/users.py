@@ -1,5 +1,5 @@
 from flask import request, jsonify, Blueprint
-from utils.file_tools import (
+from .utils.file_tools import (
     read_json,
     write_json,
     users_path,
@@ -8,12 +8,14 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from functools import wraps
+from dotenv import load_dotenv
+import os
 import re
 import datetime
 import jwt
 
-
-SECRET_KEY = "my secret key"
+load_dotenv()
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 
 users_bp = Blueprint("users", __name__, url_prefix="/users")
@@ -83,6 +85,7 @@ def register():
 
 @users_bp.route("/login", methods=["POST"])
 def log_in():
+    print("👉 DEBUG users_path =", users_path)
     user_input = request.get_json()
 
     if not user_input or "account" not in user_input or "password" not in user_input:
