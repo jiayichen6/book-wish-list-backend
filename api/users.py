@@ -1,10 +1,13 @@
 from flask import request, jsonify, Blueprint
-from pathlib import Path
+from utils.file_tools import (
+    read_json,
+    write_json,
+    users_path,
+)
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from functools import wraps
-import json
 import re
 import datetime
 import jwt
@@ -14,9 +17,6 @@ SECRET_KEY = "my secret key"
 
 
 users_bp = Blueprint("users", __name__, url_prefix="/users")
-
-base_dir = Path(__file__).resolve().parent.parent
-users_path = base_dir / "data" / "users.json"
 
 
 def token_require(func):
@@ -59,8 +59,7 @@ def register():
         return jsonify({"error": "password 長度要 6～20 字元"}), 400
 
     try:
-        with open(users_path, "r") as f:
-            user_data = json.load(f)
+        user_data = read_json(users_path)
 
         user_exist = next(
             (user for user in user_data if user["account"] == new_user["account"]),
@@ -73,8 +72,7 @@ def register():
         hashed_password = generate_password_hash(new_user["password"])
         new_user["password"] = hashed_password
         user_data.append(new_user)
-        with open(users_path, "w") as f:
-            json.dump(user_data, f)
+        write_json(users_path, user_data)
 
         return jsonify({"message": "註冊成功"}), 201
 
@@ -91,8 +89,7 @@ def log_in():
         return jsonify({"error": "缺少登入資料"}), 400
 
     try:
-        with open(users_path, "r") as f:
-            user_data = json.load(f)
+        user_data = read_json(users_path)
 
         found_user = next(
             (u for u in user_data if u["account"] == user_input["account"]), None
