@@ -12,3 +12,4 @@ wheels/
 
 # User data files
 data/users.json
+data/user_books.json
