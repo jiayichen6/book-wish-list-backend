@@ -105,7 +105,7 @@ def log_in():
             found_user["password"], user_input["password"]
         )
         if not is_password_correct:
-            return jsonify({"error": "密碼錯誤"}), 401
+            return jsonify({"error": "密碼錯誤"}), 400
 
         payload = {
             "account": found_user["account"],
