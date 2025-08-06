@@ -36,6 +36,13 @@ def add_book(account, list_name, book_id):
     if not list_name or not book_id:
         return jsonify({"error": "書本格式錯誤"}), 400
 
+    if (
+        list_name != "toReadBooks"
+        and list_name != "finishedBooks"
+        and list_name != "favoriteBooks"
+    ):
+        return jsonify({"error": "清單格式錯誤"}), 400
+
     exclusive_list = {
         "toReadBooks": ["finishedBooks"],
         "finishedBooks": ["toReadBooks"],
