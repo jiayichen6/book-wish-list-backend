@@ -18,17 +18,28 @@
 - 加入 / 移除個人書單
 - 書單分類：想讀、已讀、收藏
 
+## 認證方式
+
+需要驗證的 API 請在 Header 加上：
+**Authorization: "Bearer <your_jwt_token>"**
+
 ## API 路由設計
 
-| Method | Path                                     | 說明       | 驗證 |
-| ------ | ---------------------------------------- | ---------- | ---- |
-| POST   | `/users/register`                        | 註冊帳號   | No   |
-| POST   | `/users/login`                           | 登入帳號   | No   |
-| POST   | `/users/check`                           | 驗證 token | Yes  |
-| GET    | `/books`                                 | 所有書籍   | No   |
-| GET    | `/books/my/<list_name>`                  | 我的某書單 | Yes  |
-| POST   | `/books/my/<list_name>/<string:book_id>` | 加入書單   | Yes  |
-| DELETE | `/books/my/<list_name>/<string:book_id>` | 移出書單   | Yes  |
+| Method | Path                                     | 說明           | 驗證 | 請求格式                                       | 回應格式                                     |
+| ------ | ---------------------------------------- | -------------- | ---- | ---------------------------------------------- | -------------------------------------------- |
+| POST   | `/users/register`                        | 註冊帳號       | No   | `{"username": "string", "password": "string"}` | `{"message": "string"}`                      |
+| POST   | `/users/login`                           | 登入帳號       | No   | `{"username": "string", "password": "string"}` | `{"token": "string", "message": "string"}`   |
+| POST   | `/users/check`                           | 驗證 token     | Yes  | 無                                             | `{"message": "string", "user": "string"}`    |
+| GET    | `/books`                                 | 所有書籍       | No   | 無                                             | `[{"id": "string", "title": "string", ...}]` |
+| GET    | `/books/my/<list_name>`                  | 使用者的某書單 | Yes  | 無                                             | `[{"id": "string", "title": "string", ...}]` |
+| POST   | `/books/my/<list_name>/<string:book_id>` | 加入書單       | Yes  | 無                                             | `{"message": "string"}`                      |
+| DELETE | `/books/my/<list_name>/<string:book_id>` | 移出書單       | Yes  | 無                                             | `{"message": "string"}`                      |
+
+### 書單分類 (list_name)
+
+- `toReadBooks`: 想讀
+- `finishedBooks`: 已讀
+- `favoriteBooks`: 收藏
 
 ## 設置說明
 
