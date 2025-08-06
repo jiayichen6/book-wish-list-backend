@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 *.env
+
+# User data files
+data/users.json

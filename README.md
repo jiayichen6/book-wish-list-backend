@@ -30,11 +30,13 @@
 | POST   | `/books/my/<list_name>/<string:book_id>` | 加入書單   | Yes  |
 | DELETE | `/books/my/<list_name>/<string:book_id>` | 移出書單   | Yes  |
 
-## 環境變數設定
+## 設置說明
 
-請建立 `.env` 檔案，並加入：
-SECRET_KEY=your_secret_key_here
-（你可以自行定義一組安全的密鑰。）
+- 請建立 `data/users.json` ，並加入：[]
+
+- 請建立 `.env` 檔案，並加入：
+  SECRET_KEY=your_secret_key_here
+  （你可以自行定義一組安全的密鑰。）
 
 ## 本地啟動方式
 
