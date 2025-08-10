@@ -1,8 +1,10 @@
 from flask import Blueprint, jsonify
 from .users import token_require
 from .utils.file_tools import read_json, write_json, all_books_path, user_books_path
+from threading import RLock
 
 books_bp = Blueprint("books", __name__, url_prefix="/books")
+user_books_lock = RLock()
 
 
 @books_bp.route("/", methods=["GET"])
@@ -49,21 +51,22 @@ def add_book(account, list_name, book_id):
     }
 
     try:
-        all_user_books = read_json(user_books_path)
+        with user_books_lock:
+            all_user_books = read_json(user_books_path)
 
-        all_user_books.setdefault(account, {})
-        user_lists = all_user_books[account]
-        user_lists.setdefault(list_name, [])
-        book_keys = user_lists[list_name]
+            all_user_books.setdefault(account, {})
+            user_lists = all_user_books[account]
+            user_lists.setdefault(list_name, [])
+            book_keys = user_lists[list_name]
 
-        if book_id not in book_keys:
-            book_keys.append(book_id)
+            if book_id not in book_keys:
+                book_keys.append(book_id)
 
-        for other_list in exclusive_list.get(list_name, []):
-            if book_id in user_lists.get(other_list, []):
-                user_lists[other_list].remove(book_id)
+            for other_list in exclusive_list.get(list_name, []):
+                if book_id in user_lists.get(other_list, []):
+                    user_lists[other_list].remove(book_id)
 
-        write_json(user_books_path, all_user_books)
+            write_json(user_books_path, all_user_books)
 
         return jsonify({"message": "新增書本成功", "book_keys": book_keys}), 201
 
@@ -76,24 +79,25 @@ def add_book(account, list_name, book_id):
 @token_require
 def delete_book(account, list_name, book_id):
     try:
-        user_books = read_json(user_books_path)
+        with user_books_lock:
+            user_books = read_json(user_books_path)
 
-        if account not in user_books:
-            return jsonify({"error": "使用者不存在"}), 404
+            if account not in user_books:
+                return jsonify({"error": "使用者不存在"}), 404
 
-        user_lists = user_books[account]
+            user_lists = user_books[account]
 
-        if list_name not in user_lists:
-            return jsonify({"error": "清單不存在"}), 404
+            if list_name not in user_lists:
+                return jsonify({"error": "清單不存在"}), 404
 
-        book_keys = user_lists[list_name]
+            book_keys = user_lists[list_name]
 
-        if book_id not in book_keys:
-            return jsonify({"error": "書本不在清單中"}), 404
+            if book_id not in book_keys:
+                return jsonify({"error": "書本不在清單中"}), 404
 
-        book_keys.remove(book_id)
+            book_keys.remove(book_id)
 
-        write_json(user_books_path, user_books)
+            write_json(user_books_path, user_books)
         return jsonify({"message": "移除書本成功", "book_keys": book_keys}), 200
 
     except Exception as e:

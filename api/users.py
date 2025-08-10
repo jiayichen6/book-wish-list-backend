@@ -9,6 +9,7 @@ from werkzeug.security import check_password_hash
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from functools import wraps
 from dotenv import load_dotenv
+from threading import RLock
 import os
 import re
 import datetime
@@ -16,6 +17,8 @@ import jwt
 
 load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY")
+
+user_lock = RLock()
 
 
 users_bp = Blueprint("users", __name__, url_prefix="/users")
@@ -61,26 +64,27 @@ def register():
         return jsonify({"error": "password 長度要 6～20 字元"}), 400
 
     try:
-        user_data = read_json(users_path)
+        with user_lock:
+            user_data = read_json(users_path)
 
-        user_exist = next(
-            (user for user in user_data if user["account"] == new_user["account"]),
-            None,
-        )
+            user_exist = next(
+                (user for user in user_data if user["account"] == new_user["account"]),
+                None,
+            )
 
-        if user_exist:
-            return jsonify({"error": "帳號已存在"}), 400
+            if user_exist:
+                return jsonify({"error": "帳號已存在"}), 400
 
-        hashed_password = generate_password_hash(new_user["password"])
-        new_user["password"] = hashed_password
-        user_data.append(new_user)
-        write_json(users_path, user_data)
+            hashed_password = generate_password_hash(new_user["password"])
+            new_user["password"] = hashed_password
+            user_data.append(new_user)
+            write_json(users_path, user_data)
 
         return jsonify({"message": "註冊成功"}), 201
 
     except Exception as e:
         print(e)
-        return ({"error": "註冊失敗"}), 400
+        return jsonify({"error": "註冊失敗"}), 400
 
 
 @users_bp.route("/login", methods=["POST"])
@@ -123,4 +127,4 @@ def log_in():
 @users_bp.route("/check", methods=["POST"])
 @token_require
 def get_me(account):
-    return jsonify({"message": "token 合法", "account": account}), 200
+    return jsonify({"message": "登入驗證成功", "account": account}), 200
