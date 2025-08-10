@@ -9,6 +9,7 @@
 - JSON 檔案儲存（模擬資料庫）
 - JWT 驗證機制
 - dotenv 管理環境變數
+- threading.RLock（單進程檔案寫入鎖）
 
 ## 功能簡介
 
@@ -25,15 +26,17 @@
 
 ## API 路由設計
 
-| Method | Path                                     | 說明           | 驗證 | 請求格式                                       | 回應格式                                     |
-| ------ | ---------------------------------------- | -------------- | ---- | ---------------------------------------------- | -------------------------------------------- |
-| POST   | `/users/register`                        | 註冊帳號       | No   | `{"username": "string", "password": "string"}` | `{"message": "string"}`                      |
-| POST   | `/users/login`                           | 登入帳號       | No   | `{"username": "string", "password": "string"}` | `{"token": "string", "message": "string"}`   |
-| POST   | `/users/check`                           | 驗證 token     | Yes  | 無                                             | `{"message": "string", "user": "string"}`    |
-| GET    | `/books`                                 | 所有書籍       | No   | 無                                             | `[{"id": "string", "title": "string", ...}]` |
-| GET    | `/books/my/<list_name>`                  | 使用者的某書單 | Yes  | 無                                             | `[{"id": "string", "title": "string", ...}]` |
-| POST   | `/books/my/<list_name>/<string:book_id>` | 加入書單       | Yes  | 無                                             | `{"message": "string"}`                      |
-| DELETE | `/books/my/<list_name>/<string:book_id>` | 移出書單       | Yes  | 無                                             | `{"message": "string"}`                      |
+| Method | Path                                     | 說明             | 驗證 | 請求格式                                   | 回應格式（成功）                                             |
+| ------ | ---------------------------------------- | ---------------- | ---- | ------------------------------------------ | ------------------------------------------------------------ |
+| POST   | `/users/register`                        | 註冊帳號         | No   | `{"account":"string","password":"string"}` | `{"message":"註冊成功"}`                                     |
+| POST   | `/users/login`                           | 登入帳號         | No   | `{"account":"string","password":"string"}` | `{"message":"登入成功","token":"<JWT>"}`                     |
+| POST   | `/users/check`                           | 驗證 token       | Yes  | 無                                         | `{"message":"登入驗證成功","account":"<account>"}`           |
+| GET    | `/books/`                                | 所有書籍（公開） | No   | 無                                         | `{"allBooksData":{"booksData":{...},"booksDescData":[...]}}` |
+| GET    | `/books/my/<list_name>`                  | 使用者某書單     | Yes  | 無                                         | `["<book_key>", "<book_key>", ...]`                          |
+| POST   | `/books/my/<list_name>/<string:book_id>` | 加入該書單       | Yes  | 無                                         | `{"message":"新增書本成功","book_keys":["<book_key>", ...]}` |
+| DELETE | `/books/my/<list_name>/<string:book_id>` | 自該書單移除     | Yes  | 無                                         | `{"message":"移除書本成功","book_keys":["<book_key>", ...]}` |
+
+> 補充說明：toReadBooks 與 finishedBooks 互斥，後端在 POST 時會自動把該 book_id 從另一個互斥清單移除；favoriteBooks 不互斥。
 
 ### 書單分類 (list_name)
 
