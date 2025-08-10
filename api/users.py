@@ -85,7 +85,6 @@ def register():
 
 @users_bp.route("/login", methods=["POST"])
 def log_in():
-    print("👉 DEBUG users_path =", users_path)
     user_input = request.get_json()
 
     if not user_input or "account" not in user_input or "password" not in user_input:

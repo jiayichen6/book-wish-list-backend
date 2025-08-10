@@ -15,7 +15,7 @@ def get_all_books():
         return jsonify({"error": "讀取書本資料失敗"}), 404
 
 
-@books_bp.route("my/<list_name>", methods=["GET"])
+@books_bp.route("/my/<list_name>", methods=["GET"])
 @token_require
 def get_user_book_keys(account, list_name):
     try:
@@ -94,8 +94,8 @@ def delete_book(account, list_name, book_id):
         book_keys.remove(book_id)
 
         write_json(user_books_path, user_books)
-        return jsonify({"message": "刪除書本成功", "book_key": book_keys}), 200
+        return jsonify({"message": "移除書本成功", "book_keys": book_keys}), 200
 
     except Exception as e:
         print(e)
-        return jsonify({"error": "刪除書本失敗"}), 400
+        return jsonify({"error": "移除書本失敗"}), 400
