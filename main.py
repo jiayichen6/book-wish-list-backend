@@ -1,8 +1,8 @@
-from flask import Flask
-from flask_cors import CORS
+import re
 from api.books import books_bp
 from api.users import users_bp
-import re
+from flask import Flask
+from flask_cors import CORS
 
 
 app = Flask(__name__)

@@ -1,19 +1,20 @@
+import datetime
+import os
+import re
+from functools import wraps
+from threading import RLock
+
+import jwt
+from dotenv import load_dotenv
 from flask import request, jsonify, Blueprint
+from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
+from werkzeug.security import generate_password_hash, check_password_hash
+
 from .utils.file_tools import (
     read_json,
     write_json,
     users_path,
 )
-from werkzeug.security import generate_password_hash
-from werkzeug.security import check_password_hash
-from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
-from functools import wraps
-from dotenv import load_dotenv
-from threading import RLock
-import os
-import re
-import datetime
-import jwt
 
 load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY")

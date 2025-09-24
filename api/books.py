@@ -1,7 +1,7 @@
+from threading import RLock
 from flask import Blueprint, jsonify
 from .users import token_require
 from .utils.file_tools import read_json, write_json, all_books_path, user_books_path
-from threading import RLock
 
 books_bp = Blueprint("books", __name__, url_prefix="/books")
 user_books_lock = RLock()
