@@ -11,5 +11,5 @@ wheels/
 *.env
 
 # User data files
-data/users.json
-data/user_books.json
+data/users_local.json
+data/user_books_local.json

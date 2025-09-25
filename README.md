@@ -50,7 +50,7 @@
 
 - 請建立 `data/user_books.json` ，並加入：{}
 
-- 請建立 `.env` 檔案，並加入：
+- 請參照 `.env.example` 建立 `.env` 檔案，並加入：
   SECRET_KEY=your_secret_key_here
   （你可以自行定義一組安全的密鑰。）
 
