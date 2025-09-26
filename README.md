@@ -2,6 +2,11 @@
 
 一個提供註冊、登入、書單管理的 RESTful API，使用 Python + Flask 製作。
 
+## 前端資源
+
+- [前端 Repo](https://github.com/jiayichen6/book-wish-list-frontend?tab=readme-ov-file)
+- [專案網址](https://book-wish-list-frontend.vercel.app/)
+
 ## 技術
 
 - Python 3.13
